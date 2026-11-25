@@ -1,0 +1,64 @@
+select, option {
+  color: #000;
+  background-color: #f9f9f9;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #CDD5DB;
+  color: #071739;
+}
+
+.navbar {
+  background-color: #071739;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar ul li a {
+  color: #E3C39D;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page {
+  padding: 2rem;
+}
+
+.card {
+  background-color: #A4B5C4;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+select, input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4B6382;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #324d6d;
+}
